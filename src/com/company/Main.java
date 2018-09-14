@@ -10,6 +10,7 @@ public class Main {
             char[] sim = args[i].toCharArray();
             number = Integer.valueOf(sim[i]);
             sign = char.valueOf(sim[i+1]);
+
             if (sign == '+') {
                 res = res + number;
             } else if (sign == '-') {
